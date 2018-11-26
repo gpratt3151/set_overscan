@@ -23,5 +23,7 @@ final values to /boot/config.txt
 I have included a compiled version of `overscan` and framebuffer image that works with the Raspberry Pi Zero W. You can
 perform the calibration by remote login vs. directly logged into the console.
 
+Image Source: https://www.reddit.com/r/hometheater/comments/l7y7e/lets_calibrate_your_tv_or_monitor_instructions_in/
+
 Russell "ukscone" Davis 2013-03-10
 Greg Pratt 2018-11-25
