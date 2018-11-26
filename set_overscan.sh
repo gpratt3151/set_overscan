@@ -154,8 +154,9 @@ clear
 tput civis
 
 # Dump some random data to /dev/fb0
+# Choose one of the following to calibrate the screen. NOTE: You'll need to do this below as well
 #cat rand >/dev/fb0
-cp calibration_image.raw /dev/fb0
+echo 'set uri=file:///home/pi/raspi-webkiosk/config/calibration/97VkS.png' > /tmp/uzbl_fifo_*
 
 # Set overscan top-left corner
 LOOP=1
@@ -190,8 +191,9 @@ clear
 tput civis
 
 # Dump some random data to /dev/fb0
+# Choose one of the following to calibrate the screen. NOTE: You'll need to do this above as well
 #cat rand >/dev/fb0
-cp calibration_image.raw /dev/fb0
+echo 'set uri=file:///home/pi/raspi-webkiosk/config/calibration/97VkS.png' > /tmp/uzbl_fifo_*
 
 # Set overscan bottom-right corner
 LOOP=1
