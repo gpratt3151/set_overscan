@@ -20,5 +20,8 @@ Use the included Makefile to build overscan and then run the set_overscan.sh scr
 keys to change each setting in turn & the q key to move to the next overscan value to change. The script writes the 
 final values to /boot/config.txt
 
-Russell "ukscone" Davis 2013-03-10
+I have included a compiled version of `overscan` and framebuffer image that works with the Raspberry Pi Zero W. You can
+perform the calibration by remote login vs. directly logged into the console.
 
+Russell "ukscone" Davis 2013-03-10
+Greg Pratt 2018-11-25

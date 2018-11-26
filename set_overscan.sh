@@ -154,7 +154,8 @@ clear
 tput civis
 
 # Dump some random data to /dev/fb0
-cat rand >/dev/fb0
+#cat rand >/dev/fb0
+cp calibration_image.raw /dev/fb0
 
 # Set overscan top-left corner
 LOOP=1
@@ -189,7 +190,8 @@ clear
 tput civis
 
 # Dump some random data to /dev/fb0
-cat rand >/dev/fb0
+#cat rand >/dev/fb0
+cp calibration_image.raw /dev/fb0
 
 # Set overscan bottom-right corner
 LOOP=1
